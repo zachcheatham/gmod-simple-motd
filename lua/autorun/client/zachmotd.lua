@@ -17,7 +17,7 @@ function ulx.showMotdMenu(steamid)
 	end
 
 	local html = vgui.Create("DHTML", container)
-	html:OpenURL("http://104.207.142.196/motd/")
+	html:OpenURL("http://untitledttt.site.nfoservers.com/motd/")
 	html:SetSize(ScrW() * 0.8, ScrH() * 0.8)
 	html:SetPos(ScrW() / 2 - html:GetWide() / 2, ScrH() / 2 - html:GetTall() / 2)
 	html:MakePopup()
